@@ -1,4 +1,4 @@
-# Installs [docker-compose 1.27.2](https://docs.docker.com/compose/) on [Ubuntu](https://www.ubuntu.com/)
+# Installs [docker-compose 1.27.3](https://docs.docker.com/compose/) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/docker-compose
@@ -9,5 +9,5 @@ sudo chmod +x docker-compose && ./docker-compose
 
 ```bash
 wget -q https://script.install.devinsideyou.com/docker-compose
-sudo chmod +x docker-compose && ./docker-compose 1.27.2
+sudo chmod +x docker-compose && ./docker-compose 1.27.3
 ```

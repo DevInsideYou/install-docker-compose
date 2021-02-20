@@ -3,7 +3,7 @@
 # remove yourself
 rm $0
 
-FALLBACK_VERSION="1.28.2"
+FALLBACK_VERSION="1.28.3"
 
 if [ "$1" == "" ]; then
     VERSION="$FALLBACK_VERSION"
@@ -20,6 +20,9 @@ TARGET="/usr/local/bin/docker-compose"
 # install docker-compose
 sudo curl -L $SOURCE -o $TARGET
 sudo chmod +x $TARGET
+
+echo
+docker-compose --version
 
 echo
 echo '"docker-compose" is now on the path'

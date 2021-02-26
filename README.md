@@ -1,4 +1,4 @@
-# Installs [docker-compose 1.28.4](https://docs.docker.com/compose/) on [Ubuntu](https://www.ubuntu.com/)
+# Installs [docker-compose 1.28.5](https://docs.docker.com/compose/) on [Ubuntu](https://www.ubuntu.com/)
 
 ```bash
 wget -q https://script.install.devinsideyou.com/docker-compose
@@ -9,5 +9,5 @@ sudo chmod +x docker-compose && ./docker-compose
 
 ```bash
 wget -q https://script.install.devinsideyou.com/docker-compose
-sudo chmod +x docker-compose && ./docker-compose 1.28.4
+sudo chmod +x docker-compose && ./docker-compose 1.28.5
 ```
